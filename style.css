@@ -1,0 +1,74 @@
+/* Estilos principais da SGF JurisTool */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  color: #111;
+}
+
+header {
+  background-color: #f7f9fc;
+  padding: 30px 20px 10px 20px;
+  text-align: center;
+}
+
+.logo h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.azul {
+  color: #0a2647; /* azul SGF */
+}
+
+.laranja {
+  color: #f4a300; /* laranja SGF */
+}
+
+.slogan {
+  margin: 5px 0 0;
+  font-size: 1.2em;
+  color: #444;
+}
+
+.hero {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.1em;
+  max-width: 700px;
+  margin: 0 auto 20px;
+  line-height: 1.6em;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #0a2647;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #06344f;
+}
+
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #666;
+}
